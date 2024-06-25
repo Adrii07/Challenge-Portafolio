@@ -1,0 +1,235 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: red;
+    padding-top: 50px;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: pink;
+    padding: 10px 0;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: uppercase;
+    color: red;
+}
+nav ul li a:active{
+color:aqua;
+}
+
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    margin-top: 60px;
+}
+
+
+.presentacion {
+    font-size: 40px;
+    margin-right: 40px; 
+}
+
+
+.adriana {
+    border-radius: 10px;
+    max-width: 30%;
+    height: auto;
+display: flex;
+}
+
+
+.contenido {
+    margin-bottom: 20px;
+}
+#sobremi{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.texto-modificable {
+    font-size: 25px; 
+    font-weight: bold; 
+    margin-bottom: 10px;
+}
+#psobremi{
+    font-size: 20px;
+}
+
+
+.lista-enlaces {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+color: black;
+}
+
+.lista-enlaces li {
+    display: inline; 
+    margin-right: 10px;
+}
+
+.lista-enlaces li:last-child {
+    margin-right: 0;
+}
+
+.lista-enlaces ul li a:hover{
+text-decoration: underline;
+color: red;
+}
+
+.lista-enlaces ul li a:active{
+color: orange;
+}
+
+.programas {
+    list-style: none; 
+    padding: 20px; 
+    margin-top: 20px;
+}
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .texto-modificable {
+    font-size: 24px;
+    font-weight: bold; 
+    text-align: center; 
+    margin-bottom: 10px;
+  }
+  
+  .programas {
+    list-style-type: none; 
+    padding: 0; 
+    text-align: center;
+  }
+  
+  .programas li {
+    margin-bottom: 5px;
+  }
+  
+  .programas li i {
+    margin-right: 5px;
+  }
+
+
+.educacion-item {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.educacion-img {
+    width: 100%; 
+    max-width: 600px;
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+
+.css-years {
+    font-weight: bold;
+    font-size: 30px;
+}
+.estudios{
+    font-size: 30px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#pasatiempos{
+font-size:35px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label,
+form input,
+form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+form button:active {
+    background-color: gray;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, pink, yellow, violet);
+    color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
